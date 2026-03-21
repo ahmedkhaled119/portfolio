@@ -871,6 +871,78 @@ p {
   line-height: 1.35;
 }
 
+/* ─── LANGUAGES GRID ─────────────────────────────────────────── */
+.languages-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 0.9rem;
+}
+
+.language-card {
+  background: rgba(22, 27, 34, 0.82);
+  border: 1px solid var(--stroke);
+  border-radius: 14px;
+  padding: 1rem 1.1rem;
+  transition: border-color 0.22s ease, box-shadow 0.22s ease, transform 0.22s ease;
+}
+
+.language-card:hover {
+  border-color: rgba(88, 166, 255, 0.38);
+  box-shadow: 0 0 22px rgba(88, 166, 255, 0.07);
+  transform: translateY(-2px);
+}
+
+.language-card--primary {
+  border-color: rgba(88, 166, 255, 0.35);
+  box-shadow: 0 0 0 1px rgba(88, 166, 255, 0.12);
+}
+
+.language-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-bottom: 0.65rem;
+}
+
+.language-head h3 {
+  margin: 0;
+  font-size: 1rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  color: var(--ink);
+}
+
+.language-head h3 i {
+  color: var(--accent);
+}
+
+.language-level {
+  font-family: "JetBrains Mono", monospace;
+  font-size: 0.75rem;
+  color: var(--ink-soft);
+  border: 1px solid rgba(88, 166, 255, 0.26);
+  border-radius: 999px;
+  padding: 0.18rem 0.5rem;
+  white-space: nowrap;
+}
+
+.language-meter {
+  height: 8px;
+  border-radius: 999px;
+  background: rgba(88, 166, 255, 0.12);
+  overflow: hidden;
+}
+
+.language-meter span {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+  box-shadow: 0 0 14px rgba(88, 166, 255, 0.35);
+}
+
 /* ─── PROJECTS ───────────────────────────────────────────────── */
 .project-grid {
   display: grid;
