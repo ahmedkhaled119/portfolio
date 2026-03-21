@@ -683,6 +683,25 @@ p {
   color: var(--ink);
 }
 
+.education-org {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.9rem;
+  width: 100%;
+}
+
+.education-org span {
+  flex: 1;
+}
+
+.education-org .company-logo {
+  width: 56px;
+  height: 56px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
 .timeline-org-link {
   display: inline-flex;
   align-items: center;
