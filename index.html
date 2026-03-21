@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="Modern CV portfolio website" />
   <title>Ahmed Khaled Ibrahim | CV Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
@@ -17,7 +18,9 @@
 
   <header class="site-header">
     <nav class="container nav">
-      <a class="logo" href="#home">AKI</a>
+      <a class="logo" href="#home" aria-label="Ahmed Khaled Ibrahim home">
+        <img class="logo-img" src="assets/imgs/logo.png" alt="Ahmed Khaled Ibrahim logo" />
+      </a>
       <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">Menu</button>
       <ul class="nav-links" id="nav-links">
         <li><a href="#summary"><i class="fa-solid fa-user-tie" aria-hidden="true"></i> Summary</a></li>
@@ -206,113 +209,130 @@
       </div>
       <div class="skills-grid">
         <article class="skill-group">
-          <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Programming Languages</h3>
+          <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Programming Languages &amp; Core Development</h3>
           <div class="skill-tags">
             <span class="skill-tag skill-tag--primary">C#</span>
-            <span class="skill-tag skill-tag--primary">TypeScript</span>
-            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag skill-tag--primary">JavaScript / TypeScript</span>
+            <span class="skill-tag">Python</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Architecture &amp; Design</h3>
+          <h3><i class="fa-solid fa-circle-nodes" aria-hidden="true"></i> Data Access &amp; Persistence</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">Clean Architecture</span>
-            <span class="skill-tag skill-tag--primary">DDD</span>
-            <span class="skill-tag skill-tag--primary">Microservices</span>
-            <span class="skill-tag">CQRS</span>
-            <span class="skill-tag">EDD</span>
-            <span class="skill-tag">Event Sourcing</span>
-            <span class="skill-tag">SOA</span>
-            <span class="skill-tag">Vertical Slice</span>
-            <span class="skill-tag">N-Tier</span>
+            <span class="skill-tag">Entity Framework Core</span>
+            <span class="skill-tag">Dapper</span>
+            <span class="skill-tag">ADO.net</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-server" aria-hidden="true"></i> Backend &amp; APIs</h3>
+          <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Database</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">ASP.NET Core (.NET 8)</span>
-            <span class="skill-tag skill-tag--primary">REST APIs</span>
-            <span class="skill-tag">gRPC</span>
-            <span class="skill-tag">GraphQL</span>
-            <span class="skill-tag">Ocelot Gateway</span>
-            <span class="skill-tag">Worker Services</span>
-            <span class="skill-tag">HealthChecks</span>
+            <span class="skill-tag skill-tag--primary">Microsoft SQL Server</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">MongoDB</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-arrows-spin" aria-hidden="true"></i> Messaging &amp; Events</h3>
+          <h3><i class="fa-solid fa-cubes" aria-hidden="true"></i> Frameworks &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">ABP Framework</span>
+            <span class="skill-tag">Blazor</span>
+            <span class="skill-tag">.NET Ecosystem</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-arrows-spin" aria-hidden="true"></i> Messaging &amp; Distributed Systems</h3>
           <div class="skill-tags">
             <span class="skill-tag skill-tag--primary">RabbitMQ</span>
             <span class="skill-tag">MassTransit</span>
             <span class="skill-tag">SignalR</span>
-            <span class="skill-tag">Hangfire</span>
+            <span class="skill-tag">Hangfire (Background Jobs &amp; Scheduling)</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-wrench" aria-hidden="true"></i> Development &amp; Productivity Tools</h3>
+          <div class="skill-tags">
+            <span class="skill-tag">Visual Studio / VS Code</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">Git / TFS</span>
+            <span class="skill-tag">MongoDB Compass</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-robot" aria-hidden="true"></i> AI &amp; Engineering Productivity</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">GitHub Copilot</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">AI-Assisted Code Review</span>
+            <span class="skill-tag">AI-Driven Refactoring</span>
           </div>
         </article>
         <article class="skill-group">
           <h3><i class="fa-brands fa-angular" aria-hidden="true"></i> Frontend</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">Angular 18+</span>
+            <span class="skill-tag skill-tag--primary">Angular +18</span>
             <span class="skill-tag skill-tag--primary">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
             <span class="skill-tag">HTML5</span>
-            <span class="skill-tag">CSS</span>
-            <span class="skill-tag">Bootstrap</span>
-            <span class="skill-tag">Tailwind</span>
+            <span class="skill-tag">CSS / Bootstrap / Tailwind</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Data &amp; Databases</h3>
+          <h3><i class="fa-solid fa-flask" aria-hidden="true"></i> Testing &amp; Quality Assurance</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">MSSQL</span>
-            <span class="skill-tag skill-tag--primary">EF Core</span>
-            <span class="skill-tag">MongoDB</span>
-            <span class="skill-tag">MySQL</span>
-            <span class="skill-tag">Dapper</span>
-            <span class="skill-tag">ADO.NET</span>
+            <span class="skill-tag">Test-Driven Development (TDD)</span>
+            <span class="skill-tag">Unit Testing (xUnit)</span>
+            <span class="skill-tag">AutoFixture - NSubstitute - Moq</span>
+            <span class="skill-tag">Load Testing using JMeter</span>
+            <span class="skill-tag">SonarQube (Code Quality &amp; Analysis)</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-brands fa-docker" aria-hidden="true"></i> DevOps &amp; Cloud</h3>
+          <h3><i class="fa-brands fa-docker" aria-hidden="true"></i> DevOps &amp; Infrastructure</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">Docker</span>
-            <span class="skill-tag skill-tag--primary">Kubernetes</span>
-            <span class="skill-tag skill-tag--primary">Azure DevOps</span>
-            <span class="skill-tag">ArgoCD</span>
-            <span class="skill-tag">CI/CD</span>
-            <span class="skill-tag">Linux</span>
-            <span class="skill-tag">OpenTelemetry</span>
-            <span class="skill-tag">SonarQube</span>
+            <span class="skill-tag">Docker &amp; Containerization (Docker Desktop, Portainer)</span>
+            <span class="skill-tag">CI/CD &amp; GitOps with ArgoCD</span>
+            <span class="skill-tag">Kubernetes (container orchestration)</span>
+            <span class="skill-tag">Linux Commands &amp; Environment Management</span>
+            <span class="skill-tag">Azure DevOps (Boards, Repos, Pipelines, Artifacts, Wiki, Dashboards)</span>
+            <span class="skill-tag">Observability &amp; Monitoring (OpenTelemetry, SonarQube, JMeter)</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-flask" aria-hidden="true"></i> Testing &amp; QA</h3>
+          <h3><i class="fa-solid fa-people-group" aria-hidden="true"></i> Software Development Practices &amp; Leadership</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">TDD</span>
-            <span class="skill-tag skill-tag--primary">xUnit</span>
-            <span class="skill-tag">NSubstitute</span>
-            <span class="skill-tag">AutoFixture</span>
-            <span class="skill-tag">Moq</span>
-            <span class="skill-tag">JMeter</span>
+            <span class="skill-tag">Agile (Scrum)</span>
+            <span class="skill-tag">Code Reviews &amp; Standards Enforcement</span>
+            <span class="skill-tag">Architecture Decision Making</span>
+            <span class="skill-tag">Mentoring &amp; Team Guidance</span>
+            <span class="skill-tag">Technical Leadership</span>
+            <span class="skill-tag">Modularization &amp; Scalability Planning</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-robot" aria-hidden="true"></i> AI &amp; Productivity</h3>
+          <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Software Architecture &amp; System Design</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">GitHub Copilot</span>
-            <span class="skill-tag">Prompt Engineering</span>
-            <span class="skill-tag">AI Code Review</span>
-            <span class="skill-tag">AI Refactoring</span>
+            <span class="skill-tag">Onion / Clean / N-Tier / Vertical Slice Architecture</span>
+            <span class="skill-tag">Monolith / Modular Monolith</span>
+            <span class="skill-tag skill-tag--primary">Microservices</span>
+            <span class="skill-tag">Service-Oriented Architecture (SOA)</span>
+            <span class="skill-tag skill-tag--primary">Domain-Driven Design (DDD)</span>
+            <span class="skill-tag">Event-Driven Design (EDD)</span>
+            <span class="skill-tag">Command Query Responsibility Segregation (CQRS)</span>
+            <span class="skill-tag">Event Sourcing</span>
           </div>
         </article>
         <article class="skill-group">
-          <h3><i class="fa-solid fa-wrench" aria-hidden="true"></i> Tools &amp; Platforms</h3>
+          <h3><i class="fa-solid fa-server" aria-hidden="true"></i> Backend Development &amp; APIs</h3>
           <div class="skill-tags">
-            <span class="skill-tag skill-tag--primary">Git</span>
-            <span class="skill-tag">Visual Studio</span>
-            <span class="skill-tag">VS Code</span>
-            <span class="skill-tag">Postman</span>
-            <span class="skill-tag">ABP Framework</span>
-            <span class="skill-tag">Blazor</span>
-            <span class="skill-tag">Agile / Scrum</span>
+            <span class="skill-tag skill-tag--primary">ASP.NET Core (.NET 8)</span>
+            <span class="skill-tag skill-tag--primary">RESTful Web APIs</span>
+            <span class="skill-tag">gRPC</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">Ocelot API Gateway</span>
+            <span class="skill-tag">Web Services</span>
+            <span class="skill-tag">Worker Services</span>
+            <span class="skill-tag">HealthChecks</span>
           </div>
         </article>
       </div>
@@ -334,11 +354,11 @@
         </div>
         <div class="leadership-card">
           <i class="fa-solid fa-handshake" aria-hidden="true"></i>
-          <span>Cross-Functional Collaboration</span>
+          <span>Cross-functional Collaboration</span>
         </div>
         <div class="leadership-card">
           <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
-          <span>Problem-Solving &amp; Analytical Thinking</span>
+          <span>Problem-solving &amp; Analytical Thinking</span>
         </div>
         <div class="leadership-card">
           <i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i>
