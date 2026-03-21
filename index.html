@@ -1,0 +1,682 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Modern CV portfolio website" />
+  <title>Ahmed Khaled Ibrahim | CV Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Sora:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="bg-orb bg-orb-1" aria-hidden="true"></div>
+  <div class="bg-orb bg-orb-2" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="logo" href="#home">AKI</a>
+      <button class="menu-btn" aria-label="Open navigation" aria-expanded="false">Menu</button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#summary"><i class="fa-solid fa-user-tie" aria-hidden="true"></i> Summary</a></li>
+        <li><a href="#experience"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Experience</a></li>
+        <li><a href="#technical-skills"><i class="fa-solid fa-code" aria-hidden="true"></i> Tech Skills</a></li>
+        <li><a href="#leadership-skills"><i class="fa-solid fa-people-group" aria-hidden="true"></i> Leadership</a></li>
+        <li><a href="#projects"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Projects</a></li>
+        <li><a href="#education"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cv-shell container">
+    <aside class="profile-rail">
+      <div class="rail-card">
+        <figure class="profile-photo-wrap">
+          <img class="profile-photo" src="assets/imgs/profile-picture.jpg" alt="Portrait of Ahmed Khaled Ibrahim" />
+        </figure>
+        <p class="eyebrow">Profile</p>
+        <h2 class="rail-name">Ahmed Khaled Ibrahim</h2>
+        <p class="rail-role">Staff Full-Stack .NET Developer</p>
+        <p class="rail-location"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Moqattam, Cairo, Egypt</p>
+        <div class="rail-actions">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/ahmed-khaled-139116117/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn</a>
+          <a class="btn btn-secondary" href="#contact"><i class="fa-regular fa-address-card" aria-hidden="true"></i> Contact</a>
+          <a class="btn btn-secondary" href="assets/resume/Ahmed Khaled TL CV Mar 2026.pdf" download="Ahmed Khaled TL CV Mar 2026.pdf" target="_blank"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Download CV</a>
+        </div>
+        <ul class="rail-contact">
+          <li><i class="fa-solid fa-phone" aria-hidden="true"></i> <strong>Phone:</strong> +201025275829</li>
+          <li><i class="fa-solid fa-envelope" aria-hidden="true"></i> <strong>Email:</strong> ahmed.khaled.119@hotmail.com</li>
+        </ul>
+      </div>
+      <nav class="rail-card rail-nav" aria-label="CV section navigation">
+        <a href="#summary"><i class="fa-solid fa-user-tie" aria-hidden="true"></i> Summary</a>
+        <a href="#experience"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Work Experience</a>
+        <a href="#technical-skills"><i class="fa-solid fa-code" aria-hidden="true"></i> Technical Skills</a>
+        <a href="#leadership-skills"><i class="fa-solid fa-people-group" aria-hidden="true"></i> Leadership</a>
+        <a href="#projects"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Projects</a>
+        <a href="#education"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</a>
+        <a href="#certifications"><i class="fa-solid fa-certificate" aria-hidden="true"></i> Certificates</a>
+        <a href="#language-proficiency"><i class="fa-solid fa-language" aria-hidden="true"></i> Languages</a>
+      </nav>
+    </aside>
+
+    <main id="home" class="content-col">
+    <section class="hero container reveal">
+      <figure class="hero-cover-wrap">
+        <img class="hero-cover" src="assets/imgs/cover.jpg" alt="Ahmed Khaled Ibrahim cover image" />
+      </figure>
+      <p class="eyebrow" id="hero-eyebrow">Staff Full-Stack .NET Developer</p>
+      <h1>AHMED KHALED IBRAHIM</h1>
+      <p class="hero-text">+201025275829 | ahmed.khaled.119@hotmail.com | <a href="https://www.linkedin.com/in/ahmed-khaled-139116117/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a> | Moqattam, Cairo, Egypt</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#projects"><i class="fa-solid fa-compass" aria-hidden="true"></i> Explore Work</a>
+        <a class="btn btn-secondary" href="#contact"><i class="fa-regular fa-message" aria-hidden="true"></i> Let's Connect</a>
+        <a class="btn btn-secondary" href="assets/resume/Ahmed Khaled TL CV Mar 2026.pdf" download="Ahmed Khaled TL CV Mar 2026.pdf" target="_blank"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Download CV</a>
+      </div>
+      <div class="metrics">
+        <article data-countup="7" data-suffix="+">
+          <h3><i class="fa-solid fa-timeline" aria-hidden="true"></i> <span class="metric-num">7+</span></h3></output>
+          <p>Years Experience</p>
+        </article>
+        <article data-countup="2000" data-suffix="+">
+          <h3><i class="fa-solid fa-users" aria-hidden="true"></i> <span class="metric-num">2,000+</span></h3>
+          <p>Users Served</p>
+        </article>
+        <article data-countup="3" data-suffix="+">
+          <h3><i class="fa-solid fa-building" aria-hidden="true"></i> <span class="metric-num">3+</span></h3>
+          <p>Enterprise Platforms Led</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="summary" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Summary</p>
+        <h2>Professional Snapshot</h2>
+      </div>
+      <div class="about-layout">
+        <p>
+          Staff Full-Stack Software Engineer with 7+ years of experience designing and delivering scalable, secure,
+          enterprise-grade applications using .NET 8+ and Angular 18+. Strong expertise in Domain-Driven Design (DDD),
+          Microservices, and Clean Architecture, with hands-on ownership of system design, performance optimization,
+          security, and complex integrations. Operate at a technical leadership level, driving architectural decisions,
+          mentoring engineers, and elevating engineering standards across teams. Proven track record in building
+          cloud-ready, containerized systems using Docker and modern CI/CD practices. Leverage AI-assisted development
+          tools like GitHub Copilot to enhance productivity, improve code quality, and deliver maintainable,
+          high-performance solutions across both backend and frontend domains, with a growing focus on solution
+          architecture and system-level design.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Work Experience</p>
+        <h2>Professional Experience</h2>
+      </div>
+      <div class="accordion-tools" id="experience-accordion-tools">
+        <button type="button" class="tool-btn" id="experience-expand">Expand all</button>
+        <button type="button" class="tool-btn" id="experience-collapse">Collapse all</button>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item timeline-item--current">
+          <span>Oct 2024 - Present <span class="current-badge"><i class="fa-solid fa-circle-dot" aria-hidden="true"></i> Current</span></span>
+          <h3>Staff Full-Stack .NET Developer</h3>
+          <p class="timeline-org">THIQAH Business Services - Cairo, Egypt</p>
+          <p class="timeline-meta">Promoted from Senior Full-Stack Dotnet Developer (Jan 2022 - Oct 2024)</p>
+          <ul class="timeline-list">
+            <li>Lead design and delivery of 3+ enterprise platforms serving 2,000+ users, built on .NET 8 and Angular 18.</li>
+            <li>Drive architectural decisions (Clean Architecture, DDD, microservices, integration patterns) ensuring long-term maintainability and extensibility.</li>
+            <li>Mentor a team of 3-4 engineers through code reviews and design sessions, reducing production defects by ~30%.</li>
+            <li>Partner with product owners, architects, and stakeholders to translate business requirements into robust technical solutions.</li>
+            <li>Establish and enforce coding standards, performance benchmarks, and security practices across teams.</li>
+            <li>Champion GitHub Copilot adoption across the team, reducing boilerplate development time by an estimated 25%.</li>
+            <li>Drive full-cycle feature delivery - from design and development through deployment and production support.</li>
+            <li>Identify and resolve critical system bottlenecks - improving average API response time from ~800ms to under 200ms.</li>
+            <li>Automate CI/CD pipelines with Azure DevOps + ArgoCD, eliminating manual deployment steps and cutting release cycle time by ~70%.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span>Jan 2022 - Oct 2024</span>
+          <h3>Senior Full-Stack .NET Developer</h3>
+          <p class="timeline-org">THIQAH Business Services - Cairo, Egypt</p>
+          <ul class="timeline-list">
+            <li>Delivered end-to-end full-stack solutions using .NET, Angular, and modern bp technologies for Saudi government and private sector clients.</li>
+            <li>Translated complex business and regulatory requirements into secure, reliable, and maintainable technical implementations.</li>
+            <li>Built and maintained production-grade APIs, integrations, and backend services aligned with enterprise performance and security benchmarks.</li>
+            <li>Developed responsive, high-quality frontend applications with a focus on usability, accessibility, and performance.</li>
+            <li>Worked directly with clients, business analysts, and cross-functional teams to ensure on-time delivery to a high standard.</li>
+            <li>Applied Clean Code, SOLID principles, and layered architecture to improve code quality and long-term maintainability.</li>
+            <li>Participated in code reviews, debugging, and post-release support, maintaining system stability and reliability.</li>
+            <li>Contributed to performance optimization, security hardening, and technical debt reduction initiatives.</li>
+            <li>Supported deployment, release management, and CI/CD pipelines in enterprise environments.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span>Apr 2021 - Jan 2022</span>
+          <h3>Senior .NET Developer</h3>
+          <p class="timeline-org">The Enterprise Company - Cairo, Egypt</p>
+          <ul class="timeline-list">
+            <li>Developed and maintained 2 corporate platforms serving Egyptian and regional enterprise clients.</li>
+            <li>Collaborated across all stages of the SDLC, including requirement analysis, system design, development, testing, and production releases.</li>
+            <li>Implemented backend services and APIs using .NET, with a focus on throughput, resilience, and secure access.</li>
+            <li>Contributed to frontend development to deliver responsive, user-friendly web interfaces.</li>
+            <li>Engaged with business stakeholders, designers, and QA teams to align technical delivery with client communication goals.</li>
+            <li>Contributed to code reviews across a team of ~5 developers, reducing post-release bugs by ~20%.</li>
+            <li>Supported deployment activities and release stabilization, keeping production environments stable post-release.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span>Sep 2019 - Apr 2021</span>
+          <h3>Senior .NET Developer</h3>
+          <p class="timeline-org">Unicom Group - Cairo, Egypt</p>
+          <ul class="timeline-list">
+            <li>Built and maintained 4+ government-scale web applications serving 100,000+ Iraqi citizens.</li>
+            <li>Participated across the full systems development lifecycle (SDLC), from requirement analysis and system design to development, testing, and production deployment.</li>
+            <li>Implemented backend services, APIs, and domain logic using .NET technologies.</li>
+            <li>Coordinated with business analysts, project managers, and QA teams to deliver governmental requirements accurately and on time.</li>
+            <li>Maintained application stability, performance, and data integrity across production environments.</li>
+            <li>Performed code reviews, debugging, and issue resolution to uphold engineering quality standards.</li>
+            <li>Supported zero-downtime deployments for mission-critical government systems with 99%+ uptime requirements.</li>
+          </ul>
+        </article>
+        <article class="timeline-item">
+          <span>Dec 2017 - Sep 2019</span>
+          <h3>Senior .NET Developer</h3>
+          <p class="timeline-org">Victory Link - Cairo, Egypt</p>
+          <ul class="timeline-list">
+            <li>Contributed to 3+ telecom applications handling bulk SMS delivery across multiple providers.</li>
+            <li>Assisted in building integrated systems and services, maintaining seamless interaction between application components.</li>
+            <li>Implemented backend features, data access layers, and core application logic under senior developer guidance.</li>
+            <li>Participated in requirements analysis, development, testing, and bug fixing across multiple projects.</li>
+            <li>Collaborated with team members to deliver reliable and maintainable solutions within project timelines.</li>
+            <li>Gained hands-on experience with enterprise development practices, version control, and deployment processes.</li>
+            <li>Supported ongoing maintenance and enhancements for existing production systems.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="technical-skills" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Technical Skills</p>
+        <h2>Engineering Capabilities</h2>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-code" aria-hidden="true"></i> Programming Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">C#</span>
+            <span class="skill-tag skill-tag--primary">TypeScript</span>
+            <span class="skill-tag">JavaScript</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-layer-group" aria-hidden="true"></i> Architecture &amp; Design</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Clean Architecture</span>
+            <span class="skill-tag skill-tag--primary">DDD</span>
+            <span class="skill-tag skill-tag--primary">Microservices</span>
+            <span class="skill-tag">CQRS</span>
+            <span class="skill-tag">EDD</span>
+            <span class="skill-tag">Event Sourcing</span>
+            <span class="skill-tag">SOA</span>
+            <span class="skill-tag">Vertical Slice</span>
+            <span class="skill-tag">N-Tier</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-server" aria-hidden="true"></i> Backend &amp; APIs</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">ASP.NET Core (.NET 8)</span>
+            <span class="skill-tag skill-tag--primary">REST APIs</span>
+            <span class="skill-tag">gRPC</span>
+            <span class="skill-tag">GraphQL</span>
+            <span class="skill-tag">Ocelot Gateway</span>
+            <span class="skill-tag">Worker Services</span>
+            <span class="skill-tag">HealthChecks</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-arrows-spin" aria-hidden="true"></i> Messaging &amp; Events</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">RabbitMQ</span>
+            <span class="skill-tag">MassTransit</span>
+            <span class="skill-tag">SignalR</span>
+            <span class="skill-tag">Hangfire</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-brands fa-angular" aria-hidden="true"></i> Frontend</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Angular 18+</span>
+            <span class="skill-tag skill-tag--primary">TypeScript</span>
+            <span class="skill-tag">HTML5</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">Bootstrap</span>
+            <span class="skill-tag">Tailwind</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-database" aria-hidden="true"></i> Data &amp; Databases</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">MSSQL</span>
+            <span class="skill-tag skill-tag--primary">EF Core</span>
+            <span class="skill-tag">MongoDB</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Dapper</span>
+            <span class="skill-tag">ADO.NET</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-brands fa-docker" aria-hidden="true"></i> DevOps &amp; Cloud</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Docker</span>
+            <span class="skill-tag skill-tag--primary">Kubernetes</span>
+            <span class="skill-tag skill-tag--primary">Azure DevOps</span>
+            <span class="skill-tag">ArgoCD</span>
+            <span class="skill-tag">CI/CD</span>
+            <span class="skill-tag">Linux</span>
+            <span class="skill-tag">OpenTelemetry</span>
+            <span class="skill-tag">SonarQube</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-flask" aria-hidden="true"></i> Testing &amp; QA</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">TDD</span>
+            <span class="skill-tag skill-tag--primary">xUnit</span>
+            <span class="skill-tag">NSubstitute</span>
+            <span class="skill-tag">AutoFixture</span>
+            <span class="skill-tag">Moq</span>
+            <span class="skill-tag">JMeter</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-robot" aria-hidden="true"></i> AI &amp; Productivity</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">GitHub Copilot</span>
+            <span class="skill-tag">Prompt Engineering</span>
+            <span class="skill-tag">AI Code Review</span>
+            <span class="skill-tag">AI Refactoring</span>
+          </div>
+        </article>
+        <article class="skill-group">
+          <h3><i class="fa-solid fa-wrench" aria-hidden="true"></i> Tools &amp; Platforms</h3>
+          <div class="skill-tags">
+            <span class="skill-tag skill-tag--primary">Git</span>
+            <span class="skill-tag">Visual Studio</span>
+            <span class="skill-tag">VS Code</span>
+            <span class="skill-tag">Postman</span>
+            <span class="skill-tag">ABP Framework</span>
+            <span class="skill-tag">Blazor</span>
+            <span class="skill-tag">Agile / Scrum</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="leadership-skills" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Interpersonal &amp; Leadership Skills</p>
+        <h2>Team &amp; Leadership Strengths</h2>
+      </div>
+      <div class="leadership-grid">
+        <div class="leadership-card">
+          <i class="fa-solid fa-chess-king" aria-hidden="true"></i>
+          <span>Technical Leadership</span>
+        </div>
+        <div class="leadership-card">
+          <i class="fa-solid fa-people-group" aria-hidden="true"></i>
+          <span>Mentorship &amp; Team Guidance</span>
+        </div>
+        <div class="leadership-card">
+          <i class="fa-solid fa-handshake" aria-hidden="true"></i>
+          <span>Cross-Functional Collaboration</span>
+        </div>
+        <div class="leadership-card">
+          <i class="fa-solid fa-lightbulb" aria-hidden="true"></i>
+          <span>Problem-Solving &amp; Analytical Thinking</span>
+        </div>
+        <div class="leadership-card">
+          <i class="fa-solid fa-arrow-trend-up" aria-hidden="true"></i>
+          <span>Accountability &amp; Continuous Improvement</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Portfolio</p>
+        <h2>Projects</h2>
+      </div>
+      <div class="project-controls">
+        <div class="accordion-tools" id="project-accordion-tools">
+          <button type="button" class="tool-btn" id="projects-expand">Expand all</button>
+          <button type="button" class="tool-btn" id="projects-collapse">Collapse all</button>
+        </div>
+        <div class="project-filters" id="project-filters" aria-label="Project filters by company"></div>
+      </div>
+      <div class="timeline projects-timeline">
+        <article class="timeline-item project-item">
+          <h3>NCFB</h3>
+          <p class="timeline-org">THIQAH Business Services</p>
+          <ul class="timeline-list">
+            <li>Lead the design, development, and delivery of enterprise solutions for the National Center for Family Business (NCFB) and THIQAH platforms.</li>
+            <li>Designed scalable, secure, and maintainable systems to manage sensitive business and operational data.</li>
+            <li>Guided technical and cross-functional teams, providing mentoring and code review to ensure strong software development practices.</li>
+            <li>Implemented workflow automation, process optimization, and platform integrations across multiple enterprise systems.</li>
+            <li>Leveraged AI-assisted development (GitHub Copilot) to accelerate productivity and improve code quality.</li>
+            <li>Collaborated with business, legal, and operational stakeholders to align technical solutions with strategic objectives.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ABP - .NET 8 - REST API - DDD - LINQ - EF Core - MSSQL - Angular 17 - HTML5 - SCSS - Bootstrap - TypeScript - Hangfire - HealthChecks - APIgee - Notification and SADAD Payment integration - xUnit - NSubstitute - AutoFixture - Azure Artifacts (NuGets) - Azure Pipeline CI/CD - Docker - K8s - ArgoCD - Vault</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Franchise</h3>
+          <p class="timeline-org">THIQAH Business Services</p>
+          <ul class="timeline-list">
+            <li>Built the Franchise Center platform to register and manage franchise certificates.</li>
+            <li>Implemented program management, event organization, and educational resources for franchise stakeholders.</li>
+            <li>Built backend services and APIs to handle workflows, data management, and reporting.</li>
+            <li>Collaborated with business, legal, and operations teams to ensure compliance and process efficiency.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ABP - .NET Core 3.1 - REST API - DDD - LINQ - EF Core - MSSQL - Angular 13 - HTML5 - CSS - Bootstrap - TypeScript - xUnit - Moq - AutoFixture</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Sample Examination</h3>
+          <p class="timeline-org">THIQAH Business Services</p>
+          <ul class="timeline-list">
+            <li>Designed and delivered a sample examination system for scheduling and tracking product evaluations.</li>
+            <li>Managed the full lifecycle of sample examinations, from scheduling to issuance of examination results.</li>
+            <li>Built backend APIs and services to handle tracking, notifications, and status updates for each examination.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ABP - .NET Core 3.1 - REST API - DDD - LINQ - EF Core - MSSQL - Angular 13 - HTML5 - CSS - Bootstrap - TypeScript</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Discounts</h3>
+          <p class="timeline-org">THIQAH Business Services</p>
+          <ul class="timeline-list">
+            <li>Developed a Unified Discounts API to serve as a central service for integration with multiple platforms.</li>
+            <li>Exposed endpoints for creating, retrieving, and managing discount data across enterprise applications.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ABP - .NET Core 3.1 - REST API - DDD - LINQ - EF Core - MSSQL</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>CityLink Product</h3>
+          <p class="timeline-org">Freelance</p>
+          <ul class="timeline-list">
+            <li>Owned the full Software Development Life Cycle (SDLC) of the CityLink Digital City Twin platform.</li>
+            <li>Acted as a primary liaison between stakeholders and the development team.</li>
+            <li>Translated business requirements into scalable and maintainable technical solutions.</li>
+            <li>Provided architectural guidance and enforced best practices across backend and frontend.</li>
+            <li>Oversaw system design, implementation, and delivery of key features.</li>
+            <li>Prioritized features based on business value and project goals.</li>
+            <li>Ensured effective collaboration and alignment between technical and business teams.</li>
+            <li>Drove the delivery of a high-quality, reliable, and innovative platform for city management.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET 8 - REST API - DDD - CQRS - LINQ - EF Core - MSSQL - MongoDB - Redis Cache - Angular 19 - HTML5 - SCSS - Tailwind - TypeScript - Hangfire - HealthChecks - Ocelot Gateway - Notification (Email and SMS), Fawry-Pay, POS, and Alex Bank Payment integration - Azure Pipeline CI/CD - Docker Compose</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Enterprise.press</h3>
+          <p class="timeline-org">The Enterprise Company</p>
+          <ul class="timeline-list">
+            <li>Developed and maintained Enterprise.press, a subscription-based platform delivering daily news and market trends to corporate clients in Egypt.</li>
+            <li>Implemented backend services and APIs to manage subscriptions, content delivery, and user access control.</li>
+            <li>Built responsive frontend interfaces for enterprise users to access news, trends, and reports efficiently.</li>
+            <li>Integrated payment processing and subscription management systems to support recurring billing and access control.</li>
+            <li>Met performance SLAs and security requirements for high-volume content delivery.</li>
+            <li>Collaborated with product managers, editors, and developers to align technical solutions with business goals.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET 6 - REST API - DDD - LINQ - EF Core - Dapper - MSSQL - Angular 13 - HTML5 - CSS - Bootstrap - TypeScript - Hangfire - HealthChecks - Ocelot Gateway - Mailchimp, Azure IAM, and GoogleDocs integration - xUnit - Azure Artifacts (NuGets) - Azure Pipeline CI/CD - Docker Compose - AWS ECR</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Third-Party Integration NuGet Artifacts</h3>
+          <p class="timeline-org">The Enterprise Company</p>
+          <ul class="timeline-list">
+            <li>Developed NuGet packages to integrate third-party services with enterprise applications, enabling standardized and reusable functionality.</li>
+            <li>Collaborated with development teams to implement internal libraries for faster integration and consistent usage.</li>
+            <li>Monitored and maintained package updates, bug fixes, and enhancements to ensure stability.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET 6 - xUnit - Azure Artifacts (NuGets) - Azure Pipeline CI/CD</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Fast-Pay Integration</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Developed an integration layer between Fast-Pay (third-party payment provider) and the Iraq Electricity Ministry for fast and secure invoice payments.</li>
+            <li>Enabled citizens and businesses to pay electricity bills efficiently via multiple payment channels.</li>
+            <li>Designed APIs and services to handle payment requests, confirmations, and reconciliations in real time.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - Ocelot Gateway</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>IEMS (Iraq Electricity Management System) - Complaint System</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Built enterprise complaint management systems (IEMS and IPMATS) to track electricity-related citizen complaints in Iraq.</li>
+            <li>Enabled citizens to submit complaints via call-center agents or mobile/web applications.</li>
+            <li>Managed end-to-end complaint tracking, from submission to resolution, ensuring transparency, accountability, and timely service.</li>
+            <li>Integrated backend systems for status updates, notifications, and reporting dashboards for government stakeholders.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - DDD - LINQ - EF Core - MSSQL - Angular 8 - HTML5 - CSS - Bootstrap - TypeScript - Identity Server</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>IPMATS (Iraq Post Management and Tracking System)</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Owned end-to-end delivery of IPMATS, a system for tracking public complaints related to electricity services in Iraq.</li>
+            <li>Enabled citizens to register complaints via call-center agents or mobile applications.</li>
+            <li>Managed end-to-end tracking of complaints, from registration to resolution, ensuring accountability and transparency.</li>
+            <li>Integrated backend systems for status updates, notifications, and reporting.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - LINQ - EF Core - MSSQL - Angular 8 - HTML5 - CSS - Bootstrap - TypeScript</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Call-Center Agent</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Managed call-center interactions with citizens, handling inquiries, complaints, and service requests related to Iraq Post Center operations.</li>
+            <li>Assisted citizens in registering complaints and service requests, feeding them into the enterprise complaint management systems (IEMS/IPMATS).</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - LINQ - EF Core - MSSQL - Angular 8 - HTML5 - CSS - Bootstrap - TypeScript - SignalR</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Notification Engine</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Owned a multi-channel notification engine delivering SMS, Email, and Push notifications across multiple integrated systems.</li>
+            <li>Integrated notifications with different internal and external systems, ensuring consistent message delivery.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - LINQ - EF Core - MSSQL - Mail Provider - SignalR - Firebase - Worker Service</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Wasellak</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Participated in the Wasellak initiative, delivering food and essential supplies to Iraqi citizens during the COVID-19 pandemic.</li>
+            <li>Coordinated logistics, scheduling, and delivery tracking to ensure timely and safe distribution.</li>
+            <li>Ensured compliance with health and safety protocols to protect citizens and delivery staff.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - LINQ - EF Core - MSSQL - Angular 6 - HTML5 - CSS - TypeScript - Firebase - Worker Service</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>ProServe</h3>
+          <p class="timeline-org">Unicom Group</p>
+          <ul class="timeline-list">
+            <li>Delivered same-day repair services for electronics, including mobiles, tablets, and other devices, across the UAE.</li>
+            <li>Coordinated with clients to receive, diagnose, and repair devices efficiently.</li>
+            <li>Managed repair workflows and technical resources to meet service-level agreements (SLAs).</li>
+            <li>Ensured high-quality standards and customer satisfaction through thorough testing and validation of repaired devices.</li>
+            <li>Maintained accurate records and reporting for service requests, repairs, and follow-ups.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - .NET Core 3.1 - REST API - LINQ - EF Core - MSSQL - Angular 6 - HTML5 - CSS - TypeScript - Firebase - Worker Service</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Bulk SMS Platform</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Operated a high-volume bulk SMS platform handling message scheduling, queuing, and delivery across multiple telecom providers.</li>
+            <li>Optimized performance for large-scale messaging operations and reduced delivery delays.</li>
+            <li>Collaborated with teams to support campaign management and client requirements.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ASP.NET MVC - REST API - LINQ - EF Core - MSSQL - HTML5 - CSS - jQuery - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Ported Dials Detection API</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Integrated third-party APIs to detect ported mobile numbers (ported dials) within telecommunication systems.</li>
+            <li>Implemented logic to identify number portability status and route requests accordingly.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ASP.NET MVC - REST API - LINQ - EF Core - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>SACU (Sender Unification)</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Designed and implemented a Sender Unification (SACU) layer to integrate multiple SMS sending systems under a single unified interface.</li>
+            <li>Standardized sending workflows, message formats, and delivery data across different SMS providers and protocols.</li>
+            <li>Managed routing of SMS requests to the appropriate SMPP or API-based providers based on configuration and business rules.</li>
+            <li>Unified logging, delivery status, and error handling across all integrated messaging systems.</li>
+            <li>Improved maintainability, scalability, and observability of SMS sending operations.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ASP.NET MVC - REST API - LINQ - EF Core - MSSQL - HTML5 - CSS - jQuery - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Sending SMS by API</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Implemented SMS sending via RESTful APIs for transactional, one-to-one messaging.</li>
+            <li>Managed individual SMS requests, ensuring accurate delivery, formatting, and status handling.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - REST API - LINQ - EF Core - MSSQL - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Sending SMS by SMPP</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Implemented and maintained high-volume SMS delivery using the SMPP (Short Message Peer-to-Peer) protocol.</li>
+            <li>Controlled and monitored bulk SMS sending operations, ensuring reliability, throughput, and message delivery accuracy.</li>
+            <li>Managed SMPP connections, sessions, and message queues to handle large-scale traffic efficiently.</li>
+            <li>Optimized SMS sending performance to support high-load communication systems.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - Windows Form - REST API - LINQ - EF Core - MSSQL - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Windows Service Management</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Managed and supported custom Windows Services, including start, stop, restart, and monitoring operations.</li>
+            <li>Implemented web-based controls to manage Windows Services remotely through configuration-driven actions.</li>
+            <li>Handled service configuration changes via web applications without requiring server downtime.</li>
+            <li>Ensured service stability, reliability, and proper error handling in production environments.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ASP.NET MVC - REST API - LINQ - EF Core - MSSQL - HTML5 - CSS - jQuery - Windows Services</p>
+        </article>
+
+        <article class="timeline-item project-item">
+          <h3>Orange Facebook Chatbot</h3>
+          <p class="timeline-org">Victory Link</p>
+          <ul class="timeline-list">
+            <li>Developed and maintained a Facebook Messenger chatbot to handle user inquiries and service requests.</li>
+            <li>Managed Orange services subscriptions through automated chatbot interactions, improving customer engagement.</li>
+            <li>Integrated chatbot with backend systems and APIs to provide real-time service updates and subscription management.</li>
+            <li>Implemented conversation flows, error handling, and automated responses to enhance user experience.</li>
+            <li>Monitored chatbot performance and usage, applying improvements to increase response accuracy and reliability.</li>
+          </ul>
+          <p class="project-skills"><strong>Skills:</strong> C# - ASP.NET MVC - REST API - LINQ - EF Core - MSSQL - HTML5 - CSS - jQuery - Facebook Webhooks APIs</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="education" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Education</p>
+        <h2>Academic Background</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <p class="timeline-org">Arab Academy for Science and Technology and Maritime Transport, Cairo, Egypt</p>
+          <h3>Bachelor of Science (BSc) - Software Engineering</h3>
+          <p>2013 - 2017</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Licenses &amp; Certificates</p>
+        <h2>Professional Credentials</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <span>Dec 2025</span>
+          <h3>Complete 2025 Python Bootcamp (AI &amp; Automation Focus)</h3>
+        </article>
+        <article class="timeline-item">
+          <span>Nov 2016</span>
+          <h3>MCSD - ASP.NET MVC 5</h3>
+        </article>
+      </div>
+    </section>
+
+    <section id="language-proficiency" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Language Proficiency</p>
+        <h2>Communication Languages</h2>
+      </div>
+      <ul class="timeline-list">
+        <li>Arabic: Native proficiency</li>
+        <li>English: Professional Proficiency</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's Build Something Great</h2>
+      </div>
+      <div class="contact-card">
+        <p><i class="fa-solid fa-user" aria-hidden="true"></i> Name: Ahmed Khaled Ibrahim</p>
+        <p><i class="fa-solid fa-id-badge" aria-hidden="true"></i> Role: Staff Full-Stack .NET Developer</p>
+        <p><i class="fa-solid fa-phone" aria-hidden="true"></i> Phone: +201025275829</p>
+        <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email: ahmed.khaled.119@hotmail.com</p>
+        <p><i class="fa-brands fa-linkedin" aria-hidden="true"></i> LinkedIn: <a href="https://www.linkedin.com/in/ahmed-khaled-139116117/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></p>
+        <p><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Location: Moqattam, Cairo, Egypt</p>
+        <div class="contact-actions">
+          <a class="tool-btn" href="assets/resume/Ahmed Khaled TL CV Mar 2026.pdf" download="Ahmed Khaled TL CV Mar 2026.pdf" target="_blank"><i class="fa-solid fa-file-arrow-down" aria-hidden="true"></i> Download CV</a>
+        </div>
+      </div>
+    </section>
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Ahmed Khaled Ibrahim. Crafted with care.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
