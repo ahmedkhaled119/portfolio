@@ -26,6 +26,7 @@
         <li><a href="#summary"><i class="fa-solid fa-user-tie" aria-hidden="true"></i> Summary</a></li>
         <li><a href="#experience"><i class="fa-solid fa-briefcase" aria-hidden="true"></i> Experience</a></li>
         <li><a href="#technical-skills"><i class="fa-solid fa-code" aria-hidden="true"></i> Tech Skills</a></li>
+        <li><a href="#distributed-systems"><i class="fa-solid fa-network-wired" aria-hidden="true"></i> Distributed</a></li>
         <li><a href="#leadership-skills"><i class="fa-solid fa-people-group" aria-hidden="true"></i> Leadership</a></li>
         <li><a href="#projects"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i> Projects</a></li>
         <li><a href="#education"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i> Education</a></li>
@@ -101,15 +102,19 @@
       </div>
       <div class="about-layout">
         <p>
-          Staff Full-Stack Software Engineer with 7+ years of experience designing and delivering scalable, secure,
-          enterprise-grade applications using .NET 8+ and Angular 18+. Strong expertise in Domain-Driven Design (DDD),
-          Microservices, and Clean Architecture, with hands-on ownership of system design, performance optimization,
-          security, and complex integrations. Operate at a technical leadership level, driving architectural decisions,
-          mentoring engineers, and elevating engineering standards across teams. Proven track record in building
-          cloud-ready, containerized systems using Docker and modern CI/CD practices. Leverage AI-assisted development
-          tools like GitHub Copilot to enhance productivity, improve code quality, and deliver maintainable,
-          high-performance solutions across both backend and frontend domains, with a growing focus on solution
-          architecture and system-level design.
+          Staff Full-Stack Software Engineer with 7+ years of experience designing and building scalable, distributed
+          systems using .NET 8+ and Angular 18+. Strong expertise in Microservices Architecture, Domain-Driven Design
+          (DDD), and CQRS, with hands-on contribution to core production code, APIs, and critical system components.
+        </p>
+        <p>
+          Experienced in owning end-to-end system design, defining service boundaries, and implementing resilient,
+          event-driven architectures using messaging systems such as RabbitMQ and MassTransit. Proven ability to
+          optimize performance, improve system reliability, and handle distributed system challenges including eventual
+          consistency, retries, and idempotency.
+        </p>
+        <p>
+          Operate at a technical leadership level while remaining deeply hands-on in development, driving architectural
+          decisions, mentoring engineers, and delivering high-quality, maintainable, and scalable software solutions.
         </p>
       </div>
     </section>
@@ -130,8 +135,12 @@
           <p class="timeline-org">THIQAH Business Services - Cairo, Egypt</p>
           <p class="timeline-meta">Promoted from Senior Full-Stack Dotnet Developer (Jan 2022 - Oct 2024)</p>
           <ul class="timeline-list">
-            <li>Lead design and delivery of 3+ enterprise platforms serving 10,000+ users, built on .NET 8 and Angular 18.</li>
-            <li>Drive architectural decisions (Clean Architecture, DDD, microservices, integration patterns) ensuring long-term maintainability and extensibility.</li>
+            <li>Owned end-to-end system design and delivery of 3+ enterprise platforms serving 10,000+ users, actively contributing to backend services, APIs, and system integrations.</li>
+            <li>Designed and implemented microservices architectures aligned with business domains using Domain-Driven Design (DDD), defining bounded contexts, aggregates, and service boundaries.</li>
+            <li>Applied CQRS pattern to separate read and write workloads, improving performance, scalability, and maintainability of high-traffic systems.</li>
+            <li>Implemented asynchronous communication using RabbitMQ and MassTransit, enabling decoupled services and reliable event-driven workflows.</li>
+            <li>Designed resilient distributed systems handling challenges such as eventual consistency, retry policies, idempotency, and failure recovery.</li>
+            <li>Contributed directly to production code, leading implementation of critical features, shared libraries, and core services across backend and frontend.</li>
             <li>Mentor a team of 3-4 engineers through code reviews and design sessions, reducing production defects by ~30%.</li>
             <li>Partner with product owners, architects, and stakeholders to translate business requirements into robust technical solutions.</li>
             <li>Establish and enforce coding standards, performance benchmarks, and security practices across teams.</li>
@@ -213,7 +222,6 @@
           <div class="skill-tags">
             <span class="skill-tag skill-tag--primary">C#</span>
             <span class="skill-tag skill-tag--primary">JavaScript / TypeScript</span>
-            <span class="skill-tag">Python</span>
           </div>
         </article>
         <article class="skill-group">
@@ -338,6 +346,25 @@
       </div>
     </section>
 
+    <section id="distributed-systems" class="container section reveal">
+      <div class="section-head">
+        <p class="eyebrow">Architecture</p>
+        <h2>Distributed Systems &amp; Architecture Experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <ul class="timeline-list">
+            <li>Designed and implemented microservices-based systems with clear service boundaries and data ownership.</li>
+            <li>Applied CQRS and event-driven architecture patterns to improve scalability and system performance.</li>
+            <li>Built resilient distributed systems handling eventual consistency, retries, idempotency, and fault tolerance.</li>
+            <li>Implemented asynchronous messaging patterns using RabbitMQ and MassTransit.</li>
+            <li>Designed API Gateway patterns using Ocelot for routing, aggregation, and cross-cutting concerns.</li>
+            <li>Optimized system performance using caching strategies (Redis) and database query tuning.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
     <section id="leadership-skills" class="container section reveal">
       <div class="section-head">
         <p class="eyebrow">Interpersonal &amp; Leadership Skills</p>
@@ -421,8 +448,8 @@
           <h3>Discounts</h3>
           <p class="timeline-org">THIQAH Business Services</p>
           <ul class="timeline-list">
-            <li>Developed a Unified Discounts API to serve as a central service for integration with multiple platforms.</li>
-            <li>Exposed endpoints for creating, retrieving, and managing discount data across enterprise applications.</li>
+            <li>Designed and implemented as an independent microservice to serve multiple platforms with a unified contract.</li>
+            <li>Ensured loose coupling via RESTful APIs, versioning strategies, and reusable service design.</li>
           </ul>
           <p class="project-skills"><strong>Skills:</strong> C# - ABP - .NET Core 3.1 - REST API - DDD - LINQ - EF Core - MSSQL</p>
         </article>
@@ -431,14 +458,14 @@
           <h3>CityLink Product</h3>
           <p class="timeline-org">Freelance</p>
           <ul class="timeline-list">
-            <li>Owned the full Software Development Life Cycle (SDLC) of the CityLink Digital City Twin platform.</li>
-            <li>Acted as a primary liaison between stakeholders and the development team.</li>
-            <li>Translated business requirements into scalable and maintainable technical solutions.</li>
-            <li>Provided architectural guidance and enforced best practices across backend and frontend.</li>
-            <li>Oversaw system design, implementation, and delivery of key features.</li>
-            <li>Prioritized features based on business value and project goals.</li>
-            <li>Ensured effective collaboration and alignment between technical and business teams.</li>
-            <li>Drove the delivery of a high-quality, reliable, and innovative platform for city management.</li>
+            <li>Owned full system architecture and SDLC of the CityLink Digital City Twin platform.</li>
+            <li>Designed scalable architecture using microservices and API Gateway (Ocelot), enabling independent deployment and service isolation.</li>
+            <li>Applied Domain-Driven Design (DDD) to model complex business domains and define bounded contexts.</li>
+            <li>Implemented CQRS pattern to separate command and query models, improving performance and scalability.</li>
+            <li>Built and optimized backend services, APIs, and integrations handling real-time data and workflows.</li>
+            <li>Integrated Redis caching to optimize read performance and reduce database load.</li>
+            <li>Designed asynchronous workflows for notifications and external integrations using event-driven architecture.</li>
+            <li>Collaborated with stakeholders to translate business requirements into scalable and maintainable technical solutions.</li>
           </ul>
           <p class="project-skills"><strong>Skills:</strong> C# - .NET 8 - REST API - DDD - CQRS - LINQ - EF Core - MSSQL - MongoDB - Redis Cache - Angular 19 - HTML5 - SCSS - Tailwind - TypeScript - Hangfire - HealthChecks - Ocelot Gateway - Notification (Email and SMS), Fawry-Pay, POS, and Alex Bank Payment integration - Azure Pipeline CI/CD - Docker Compose</p>
         </article>
